@@ -1,0 +1,36 @@
+.brand-section {
+    padding: 40px 0;
+  }
+  
+  .brand-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    background-color: #fff;
+    transition: box-shadow 0.5s ease;
+  }
+  
+  .brand-item:hover {
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.10);
+  }
+  
+  .brand-logo {
+    margin-bottom: 15px;
+  }
+  
+  .circle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+  }
+  
+  .brand-name {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+  }
+  

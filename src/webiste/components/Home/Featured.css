@@ -1,0 +1,37 @@
+/* Styles for Featured Products component */
+.sub-section {
+    padding: 2rem 0;
+  }
+  
+
+  
+  .sub-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sub-section .col-lg-12 {
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .sub-section .main-heading {
+    font-size: 2rem;
+    color: #328fcd; /* Light green color for the heading */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .sub-section .card-slider {
+    margin-top: 1rem;
+  }
+  
+  .sub-section .slick-dots li button:before {
+    color: #3270cd; /* Light green dots */
+  }
+  
+  .sub-section .slick-prev, .sub-section .slick-next {
+    color: #32a9cd; /* Light green arrows */
+  }
+  

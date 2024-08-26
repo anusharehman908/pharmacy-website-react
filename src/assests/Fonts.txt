@@ -1,0 +1,1 @@
+Fonts used in this design: \r\n\r\nThird party Fonts: \r\n\r\nFont: Titan One \r\nAuthor: Rodrigo Fuenzalida \r\nUrl: https://fonts.google.com/specimen/Titan+One \r\n\r\nFont: Ubuntu \r\nAuthor: Dalton Maag \r\nUrl: https://fonts.google.com/specimen/Ubuntu \r\n\r\n

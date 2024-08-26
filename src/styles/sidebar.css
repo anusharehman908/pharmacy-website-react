@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+.list-group a {
+
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.list-group-item:hover {
+    background-color: black;
+    /* Change background color on hover if needed */
+}
+
+.list-group a:hover {
+
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #fff;
+    /* Sidebar background color */
+height: 100%;
+    overflow: auto;
+
+    /* Adjust the radius as needed */
+
+}
+
+/* Sidebar header styles */
+.sidebar-header {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+/* Sidebar item styles */
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect on sidebar items */
+.sidebar-item:hover {
+    background-color: #555;
+}
+
+/* Example: Highlight the active item */
+.active {
+    background-color: #555;
+}
+
+
+.bi-outline{
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.5;
+}
+
+
+.list-group .active-link {
+    background-color: black;
+    color: #fff;
+}
+
+.list-group .active-link:hover {
+    background-color: black; /* Keep the background color consistent on hover */
+}

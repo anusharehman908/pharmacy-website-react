@@ -1,0 +1,40 @@
+/* Styles for Top Selling Items component */
+.top-selling-section {
+    padding: 2rem 0;
+  }
+  
+  .top-selling-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .top-selling-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .top-selling-section .col-green {
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .top-selling-section .main-heading {
+    font-size: 1rem;
+    color: #32CD32; /* Light green color for the heading */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .top-selling-section .card-slider {
+    margin-top: 1rem;
+  }
+  
+  .top-selling-section .slick-dots li button:before {
+    color: #32CD32; /* Light green dots */
+  }
+  
+  .top-selling-section .slick-prev, .top-selling-section .slick-next {
+    color: #32CD32; /* Light green arrows */
+  }
+  

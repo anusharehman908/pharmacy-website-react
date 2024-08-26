@@ -1,0 +1,16 @@
+.slide-container {
+    width: 100%;
+    max-width: 100%;
+
+  }
+  
+  .slide-container .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-size: cover;  /* Default to cover */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+ 

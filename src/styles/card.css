@@ -1,0 +1,28 @@
+.bg-light-blue {
+    background-color: lightblue;
+}
+
+
+.bg-orange {
+    background-color: rgb(214, 196, 156);
+    /* Light Orange color */
+}
+
+.bg-pink {
+    background-color: rgb(194, 176, 193);
+}
+.bg-aqua{
+    background-color: rgba(193, 200, 227) ;
+}
+
+.bg-green{
+    background-color: rgb(195, 219, 215);
+}
+@media only screen and (max-width: 1200px) 
+{
+    
+
+.f-wrap{
+    flex-direction: column;
+}
+}

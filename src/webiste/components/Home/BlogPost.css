@@ -1,0 +1,42 @@
+.blog-section {
+    padding: 40px 0;
+  }
+  
+  .blog-post {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .blog-post:hover {
+    box-shadow: 0 8px 9px rgba(0, 0, 11, 0.11);
+    cursor: pointer;
+  }
+  
+  .blog-post-img {
+    margin-bottom: 15px;
+  }
+  
+  .circle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+  }
+  
+  .blog-post-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post-content {
+    font-size: 16px;
+    color: #666;
+  }
+  

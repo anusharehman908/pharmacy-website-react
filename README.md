@@ -1,2 +1,2 @@
-# pharmacy-website-react
+# website
 website

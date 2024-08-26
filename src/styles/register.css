@@ -1,0 +1,144 @@
+
+
+body {
+    background: #87ceeb59;
+   
+      /* background-image: url(../assests/bgblue.jpg)!important; */
+ 
+ 
+  }
+  body:has(.bgs-gradient){
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .c-container:has(.bgs-gradient),   .l-grey:has(.bgs-gradient){
+    background-color: transparent!important;
+    border: none!important;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+  
+  }
+  .custom-box>.wrap,.custom-box{
+    display: flex;
+       justify-content: center;
+     border-radius: 30px;
+          
+  }
+  .custom-box>.wrap{
+    box-shadow: 1px 1px 8px 6px rgb(194, 193, 193);
+    overflow: hidden;
+  }
+
+  .bgs-gradient {
+    content: '';
+   position: absolute;
+   background: url(../assests/bgblue.jpg);
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    /* background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+  }
+ .l-grey{
+    background: #dfdfdf69;
+ }
+
+.white-box {
+  background-color: skyblue;
+  color: #000;
+  padding: 46px 140px 52px 140px;
+}
+.border-40 {
+  border-radius: 40px;
+ 
+}
+.fs-12{
+    font-size:12px;
+}
+.blue-box {
+    height: 500px;
+    background: #fff;
+    padding: 46px 140px 52px 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pright{
+    padding-right: 10em;
+}
+.pleft{
+    padding-left: 10em;
+}
+.light-blue-btn{
+    background-color:rgb(15, 143, 194);
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px 1px grey;
+    width: 100%;
+}
+.light-blue-btn:hover{
+    background-color: #0177ff;
+   
+}
+.r-form>div{
+    width: 100%;
+}
+.r-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    width: 300px;
+}
+.r-form input{
+background-color: #e9e9e9;
+border-radius: 30px;
+box-shadow: 1px 1px 6px 1px grey;
+}
+@media only screen and (max-width: 1012px) 
+{
+    .white-box,.blue-box {
+     
+        padding: 46px 67px 52px 67px;
+    }
+}
+
+ @media only screen and (max-width: 1200px) 
+{
+   
+    .register-background{
+        margin: 1em;
+
+    }
+    .blue-box{
+        height: unset;
+    }
+} 
+@media only screen and (max-width: 808px) 
+{
+    .custom-box>.wrap{
+        flex-direction: column;
+    }
+.white-box,.blue-box{
+    width: 100%;
+}}
+@media only screen and (max-width: 443px) 
+{
+   
+    .white-box, .blue-box {
+        padding: 20px 20px 20px 20px;
+    }
+  
+} 
